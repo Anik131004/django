@@ -1,0 +1,6 @@
+python manage.py startapp ironman  this will create app
+than change path in settings.py installed apps
+template folder created inside the ironman does not any change in settings
+new app created does not have a url.py file in it , so we create a new url.py in the app folder which have content of original projects
+ url.py file
+  1) now to pass the control from project urls.py to app urls.py we have to use "include" in 
